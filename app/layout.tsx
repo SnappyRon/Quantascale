@@ -1,7 +1,10 @@
-import type { Metadata } from 'next'
-import './globals.css'
+'use client';
 
-export const metadata = {
+import type { Metadata } from 'next';
+import './globals.css';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
+export const metadata: Metadata = {
   title: 'QuantaScale | Precision Systems. Scalable Growth.',
   description: 'Client acquisition systems powered by LinkedIn, AI SEO, and automation.',
   icons: {
@@ -9,15 +12,17 @@ export const metadata = {
   },
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
-  )
+  );
 }
