@@ -1,11 +1,14 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
-export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
-}
+export const metadata = {
+  title: 'QuantaScale | Precision Systems. Scalable Growth.',
+  description: 'Client acquisition systems powered by LinkedIn, AI SEO, and automation.',
+  icons: {
+    icon: '/favicon-16x16.png',
+  },
+};
+
 
 export default function RootLayout({
   children,
