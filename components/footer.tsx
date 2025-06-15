@@ -37,8 +37,7 @@ export default function Footer() {
             </div>
 
             <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-md font-light">
-              Engineering sophisticated AI systems that transform service-based businesses into automated growth
-              engines.
+              We build AI systems that help high-ticket coaches scale faster, close more clients, and reclaim their time.
             </p>
 
             <div className="flex items-center space-x-6 text-gray-400">
