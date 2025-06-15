@@ -76,7 +76,7 @@ export default function Footer() {
             <div className="space-y-4 mb-8">
               <div className="flex items-center space-x-3 text-gray-400 hover:text-white transition-colors">
                 <Mail className="h-5 w-5" />
-                <span className="font-light">hello@quantascale.com</span>
+                <span className="font-light">roncheta@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
