@@ -18,11 +18,11 @@ export function CtaSection() {
           </div>
 
           <h2 className="text-4xl lg:text-6xl font-light text-white mb-8 leading-tight">
-            Ready to Automate <span className="font-normal text-sky-400">Your Client Acquisition</span> with AI?
+            Ready to Attract <span className="font-normal text-sky-400">Clients</span> on Autopilot with AI?
           </h2>
 
           <p className="text-xl lg:text-2xl text-gray-400 mb-16 leading-relaxed font-light">
-            Schedule a consultation and discover how AI can revolutionize your growth in the next 30 days
+            Let us show you how to automate your lead gen and sales so you can scale without burnout.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
