@@ -18,7 +18,7 @@ export function CtaSection() {
           </div>
 
           <h2 className="text-4xl lg:text-6xl font-light text-white mb-8 leading-tight">
-            Ready to <span className="font-normal text-sky-400">Transform</span> Your Business?
+            Ready to Automate <span className="font-normal text-sky-400">Your Client Acquisition</span> with AI?
           </h2>
 
           <p className="text-xl lg:text-2xl text-gray-400 mb-16 leading-relaxed font-light">
