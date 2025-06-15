@@ -78,32 +78,40 @@ export default function Footer() {
                 <Mail className="h-5 w-5" />
                 <span className="font-light">roncheta@gmail.com</span>
               </div>
+
               <div className="flex items-center space-x-3 text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
-                <span className="font-light">Ron Ancheta</span>
+                <a
+                  href="https://www.linkedin.com/in/ron-ancheta/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-light"
+                >
+                  Ron Ancheta
+                </a>
               </div>
+
+              <button
+                onClick={scrollToTop}
+                className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-600 hover:to-sky-700 text-white font-light tracking-wide transition-all duration-300 rounded-full shadow-lg"
+              >
+                <ArrowUp className="h-4 w-4 mr-2" />
+                Back to Top
+              </button>
             </div>
-
-            <button
-              onClick={scrollToTop}
-              className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-600 hover:to-sky-700 text-white font-light tracking-wide transition-all duration-300 rounded-full shadow-lg"
-            >
-              <ArrowUp className="h-4 w-4 mr-2" />
-              Back to Top
-            </button>
           </div>
-        </div>
 
-        <div className="border-t border-gray-800/30 mt-16 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 font-light">© 2024 QuantaScale. All rights reserved.</p>
-            <div className="flex space-x-8 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors font-light">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors font-light">
-                Terms of Service
-              </a>
+          <div className="border-t border-gray-800/30 mt-16 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center">
+              <p className="text-gray-400 font-light">© 2024 QuantaScale. All rights reserved.</p>
+              <div className="flex space-x-8 mt-4 md:mt-0">
+                <a href="#" className="text-gray-400 hover:text-white transition-colors font-light">
+                  Privacy Policy
+                </a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors font-light">
+                  Terms of Service
+                </a>
+              </div>
             </div>
           </div>
         </div>
