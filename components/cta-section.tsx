@@ -26,14 +26,21 @@ export function CtaSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-600 hover:to-sky-700 text-white px-12 py-4 text-xl rounded-full font-light tracking-wide transition-all duration-300 shadow-lg hover:shadow-xl"
+            <a
+              href="https://calendly.com/roncheta/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: "inline-block" }}
             >
-              <Calendar className="mr-3 h-6 w-6" />
-              Book Strategy Call
-              <ArrowRight className="ml-3 h-6 w-6" />
-            </Button>
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-600 hover:to-sky-700 text-white px-12 py-4 text-xl rounded-full font-light tracking-wide transition-all duration-300 shadow-lg hover:shadow-xl"
+              >
+                <Calendar className="mr-3 h-6 w-6" />
+                Book Strategy Call
+                <ArrowRight className="ml-3 h-6 w-6" />
+              </Button>
+            </a>
 
             <Button
               size="lg"

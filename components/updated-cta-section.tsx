@@ -24,53 +24,52 @@ export function UpdatedCtaSection() {
           </h2>
 
           <p className="text-xl lg:text-2xl text-gray-400 mb-16 leading-relaxed font-light">
-            Let us show you how to automate your lead gen and sales so you can scale without burnout.
+            Let us show you how to automate your lead gen and sales so you can scale without burnout.{" "}
+            <a
+              href="https://calendly.com/roncheta/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sky-400 underline hover:text-sky-300 transition"
+            >
+              Book a strategy call
+            </a>.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-            {/* Replace with your actual Calendly URL */}
-            <BookingModal
-              calendlyUrl="https://calendly.com/your-username/strategy-call"
-              triggerText="Book Strategy Call"
-              triggerClassName="bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-600 hover:to-sky-700 text-white px-12 py-4 text-xl rounded-full font-light tracking-wide transition-all duration-300 shadow-lg hover:shadow-xl"
-            />
+          <Button
+            size="lg"
+            variant="outline"
+            className="border border-gray-600 hover:border-sky-600 text-gray-300 hover:text-white px-12 py-4 text-xl rounded-full font-light tracking-wide transition-all duration-300 hover:bg-sky-600/10"
+          >
+            <Play className="mr-3 h-6 w-6" />
+            Watch Demo
+          </Button>
+        </div>
+      </div>
 
-            <Button
-              size="lg"
-              variant="outline"
-              className="border border-gray-600 hover:border-sky-600 text-gray-300 hover:text-white px-12 py-4 text-xl rounded-full font-light tracking-wide transition-all duration-300 hover:bg-sky-600/10"
-            >
-              <Play className="mr-3 h-6 w-6" />
-              Watch Demo
-            </Button>
+      {/* Calendar Integration Section */}
+      <CalendarIntegration />
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 mt-16">
+        {[
+          { title: "Free Consultation", desc: "30-minute strategy session with no obligations" },
+          { title: "Custom Strategy", desc: "Tailored growth plan for your specific business" },
+          { title: "Immediate Value", desc: "Actionable insights you can implement today" },
+        ].map((item, index) => (
+          <div
+            key={index}
+            className="p-8 bg-gray-900/50 backdrop-blur-sm border border-gray-800/50 hover:bg-gray-900/70 transition-all duration-300 rounded-2xl"
+          >
+            <h3 className="font-light text-white mb-3 text-lg">{item.title}</h3>
+            <p className="text-gray-400 text-sm font-light leading-relaxed">{item.desc}</p>
           </div>
-        </div>
+        ))}
+      </div>
 
-        {/* Calendar Integration Section */}
-        <CalendarIntegration />
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 mt-16">
-          {[
-            { title: "Free Consultation", desc: "30-minute strategy session with no obligations" },
-            { title: "Custom Strategy", desc: "Tailored growth plan for your specific business" },
-            { title: "Immediate Value", desc: "Actionable insights you can implement today" },
-          ].map((item, index) => (
-            <div
-              key={index}
-              className="p-8 bg-gray-900/50 backdrop-blur-sm border border-gray-800/50 hover:bg-gray-900/70 transition-all duration-300 rounded-2xl"
-            >
-              <h3 className="font-light text-white mb-3 text-lg">{item.title}</h3>
-              <p className="text-gray-400 text-sm font-light leading-relaxed">{item.desc}</p>
-            </div>
-          ))}
-        </div>
-
-        <div className="p-6 bg-sky-600/10 border border-sky-600/20 backdrop-blur-sm rounded-2xl">
-          <p className="text-sky-300 font-light">
-            <strong className="font-normal">Exclusive Offer:</strong> Book this week and receive a complimentary AI
-            automation audit (valued at $500)
-          </p>
-        </div>
+      <div className="p-6 bg-sky-600/10 border border-sky-600/20 backdrop-blur-sm rounded-2xl">
+        <p className="text-sky-300 font-light">
+          <strong className="font-normal">Exclusive Offer:</strong> Book this week and receive a complimentary AI
+          automation audit (valued at $500)
+        </p>
       </div>
     </section>
   )
