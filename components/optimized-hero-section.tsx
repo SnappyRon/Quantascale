@@ -68,8 +68,7 @@ export function OptimizedHeroSection() {
 
             <OptimizedScrollReveal delay={prefersReducedMotion ? 0 : 600}>
               <p className="text-xl lg:text-2xl text-gray-400 mb-16 max-w-4xl mx-auto leading-relaxed font-light">
-                We engineer sophisticated AI systems that automate your sales process, scale your business, and deliver
-                measurable results.
+                We build intelligent, done-for-you AI systems that attract qualified leads, automate your client acquisition, and help you scale your coaching business — without manual hustle.
               </p>
             </OptimizedScrollReveal>
 

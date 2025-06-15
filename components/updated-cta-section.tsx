@@ -20,11 +20,11 @@ export function UpdatedCtaSection() {
           </div>
 
           <h2 className="text-4xl lg:text-6xl font-light text-white mb-8 leading-tight">
-            Ready to <span className="font-normal text-sky-400">Transform</span> Your Business?
+            Ready to Automate <span className="font-normal text-sky-400">Your Client Acquisition</span> with AI?
           </h2>
 
           <p className="text-xl lg:text-2xl text-gray-400 mb-16 leading-relaxed font-light">
-            Schedule a consultation and discover how AI can revolutionize your growth in the next 30 days
+            Let our AI-powered system do the heavy lifting, so you can coach, scale, and grow with confidence.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">

@@ -6,31 +6,31 @@ export function ServicesSection() {
   const services = [
     {
       icon: <Linkedin className="h-8 w-8" />,
-      title: "LinkedIn Lead Generation",
+      title: "AI-Powered LinkedIn Outreach for Coaches",
       description:
-        "AI-powered, hyper-targeted outreach campaigns that connect you with qualified prospects ready to buy.",
+        "Connect with qualified prospects using automated, intelligent messaging, and book sales calls while you focus on coaching.",
       features: ["Automated connection requests", "Personalized messaging sequences", "Lead qualification & scoring"],
       gradient: "from-sky-500 to-sky-600",
     },
     {
       icon: <Search className="h-8 w-8" />,
-      title: "AI-Powered SEO",
+      title: "AI SEO That Attracts Coaching Clients",
       description:
-        "Content that ranks on Google and drives inbound traffic using cutting-edge AI optimization techniques.",
+        "Publish high-ranking, optimized content that brings ideal clients to your site without paid ads or endless social posts.",
       features: ["AI-generated content", "Technical SEO optimization", "Local search domination"],
       gradient: "from-emerald-500 to-emerald-600",
     },
     {
       icon: <Zap className="h-8 w-8" />,
       title: "GoHighLevel Automation",
-      description: "Complete CRM setup with lead capture funnels, SMS/email sequences, and conversion optimization.",
+      description: "Use AI to guide leads from opt-in to booked call through done-for-you funnels and follow-up sequences.",
       features: ["Custom funnel design", "Automated follow-up sequences", "Performance tracking & analytics"],
       gradient: "from-orange-500 to-orange-600",
     },
     {
       icon: <Bot className="h-8 w-8" />,
-      title: "Business AI Integration",
-      description: "Smart workflows, chatbots, and task automation that free up your time to focus on growth.",
+      title: "Smart Business Automation for Coaches",
+      description: "From AI chatbots to workflow automations — we help you reclaim your time and scale smarter.",
       features: ["AI chatbot integration", "Workflow automation", "Custom AI assistants"],
       gradient: "from-purple-500 to-purple-600",
     },

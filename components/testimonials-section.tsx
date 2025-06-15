@@ -27,7 +27,7 @@ export function TestimonialsSection() {
     },
     {
       name: "Lisa Rodriguez",
-      title: "Sales Consultant",
+      title: "Sales Coach",
       company: "Revenue Accelerators",
       image: "/placeholder.svg?height=80&width=80",
       quote:

@@ -52,7 +52,7 @@ export function BenefitsSection() {
         <ScrollReveal>
           <div className="text-center mb-20">
             <h2 className="text-4xl lg:text-5xl font-light text-white mb-6">
-              Why Choose{" "}
+              Why High-Ticket Coaches Choose{" "}
               <span className="font-normal bg-gradient-to-r from-sky-400 to-emerald-400 bg-clip-text text-transparent">
                 QuantaScale
               </span>
